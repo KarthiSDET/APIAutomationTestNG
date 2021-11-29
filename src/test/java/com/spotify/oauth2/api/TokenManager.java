@@ -27,7 +27,6 @@ public class TokenManager {
             }
         }
         catch(Exception e){
-            System.out.println("Error");
             e.printStackTrace();
             throw new RuntimeException("Abort!! Renew token failed");
         }
